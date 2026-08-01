@@ -36,8 +36,7 @@ modules:
     install:
       packages:
         - noctalia
-        - adw-gtk-theme
-        - nwg-look
+        - adw-gtk3-theme
 
   - type: default-flatpaks
     configurations:
