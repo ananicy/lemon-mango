@@ -39,7 +39,15 @@ modules:
     install:
       packages:
         - mangowm
-      
+  
+  - type: dnf
+    repos:
+      copr:
+        - lionheartp/Hyprland
+    install:
+      packages:
+        - nwg-look
+  
   - type: dnf
     install:
       packages:
