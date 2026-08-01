@@ -45,6 +45,8 @@ modules:
       packages:
         - noctalia
         - adw-gtk3-theme
+        - qt5ct
+        - qt6ct
 
   - type: default-flatpaks
     configurations:
