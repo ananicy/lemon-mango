@@ -65,7 +65,6 @@ modules:
         - adw-gtk3-theme
         - qt5ct
         - qt6ct
-        - nautilus
         - xdg-desktop-portal-wlr
         - sqlite-devel
         - xdg-utils
