@@ -73,7 +73,7 @@ modules:
       copr:
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
-      nonfree:
+      nonfree: rpmfusion
     install:
       skip-unavailable: true # skip unavailable packages
       packages:
