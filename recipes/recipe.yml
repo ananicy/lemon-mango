@@ -71,6 +71,10 @@ modules:
         - gcc
         - papirus-icon-theme
       exclude:
-        - plasma-desktop 
+        - plasma-desktop
+  - type: pacman
+    install:
+      packages:
+        - proton-vpn-gtk-app
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
