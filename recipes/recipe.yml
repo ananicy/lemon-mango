@@ -50,6 +50,14 @@ modules:
         - nwg-look
         - noctalia
         - noctalia-greeter
+
+  - type: dnf
+    repos:
+      copr:
+        - boobaa/zen-browser
+    install:
+      packages:
+        - zen-browser
         
   - type: dnf
     install:
