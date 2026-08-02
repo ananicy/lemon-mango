@@ -58,5 +58,6 @@ modules:
         - qt5ct
         - qt6ct
         - nautilus
+        - xdg-desktop-portal-wlr
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
