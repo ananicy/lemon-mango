@@ -63,7 +63,6 @@ modules:
         - xdg-utils
         - gcc
         - papirus-icon-theme
-        - breeze-cursor-theme
       exclude:
         - plasma-desktop 
 
