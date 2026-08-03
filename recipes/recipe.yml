@@ -49,7 +49,6 @@ modules:
       packages:
         - nwg-look
         - noctalia
-        - noctalia-greeter
 
   - type: dnf
     repos:
@@ -69,7 +68,9 @@ modules:
         - sqlite-devel
         - xdg-utils
         - gcc
+        - nautilus
         - papirus-icon-theme
+        - plasma-login-manager
       exclude:
         - plasma-desktop
 
