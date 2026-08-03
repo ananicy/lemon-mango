@@ -32,6 +32,12 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - dolphin
+        - konsole
+        - kde-connect
+        - spectacle
+        - kate
+        - kwrite
+        - plasma-systemmonitor
 
   - type: dnf
     repos:
@@ -70,5 +76,6 @@ modules:
         - gcc
         - nautilus
         - papirus-icon-theme
+        - gnome-text-editor
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
