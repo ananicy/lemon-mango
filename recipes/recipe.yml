@@ -58,14 +58,6 @@ modules:
     install:
       packages:
         - zen-browser
-
-  - type: dnf
-    repos:
-      copr:
-        - duxworm/xdg-desktop-portal-luminous
-    install:
-      packages:
-        - xdg-desktop-portal-luminous
         
   - type: dnf
     install:
