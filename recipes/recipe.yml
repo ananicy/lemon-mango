@@ -73,6 +73,6 @@ modules:
         - gnome-text-editor
         - breeze-cursor-theme
         - plasma-login-manager
-        - kde-settings-plasmalogin
+        - plasma-systemsettings
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
