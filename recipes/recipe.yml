@@ -6,7 +6,7 @@ name: lemon-mango
 description: Bazzite with mangowm/noctalia
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-gnome
+base-image: ghcr.io/ublue-os/bazzite
 image-version: testing # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -32,6 +32,7 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - gnome-shell
+        - plasma-desktop
 
   - type: dnf
     repos:
