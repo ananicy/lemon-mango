@@ -49,7 +49,6 @@ modules:
       packages:
         - nwg-look
         - noctalia
-        - noctalia-greeter
 
   - type: dnf
     repos:
@@ -73,5 +72,6 @@ modules:
         - papirus-icon-theme
         - gnome-text-editor
         - breeze-cursor-theme
+        - plasma-login-manager
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
