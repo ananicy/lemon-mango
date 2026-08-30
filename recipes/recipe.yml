@@ -60,7 +60,6 @@ modules:
   - type: dnf
     install:
       packages:
-        - adw-gtk3-theme
         - qt5ct
         - qt6ct
         - xdg-desktop-portal-wlr
